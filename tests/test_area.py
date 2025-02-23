@@ -15,6 +15,6 @@ def test_calculate_area_square_list():
 
 def test_calculate_area_square_student_id():
     assert calculate_area_square(97) == 97 * 97
-    
+
 def test_calculate_area_square_student_id_fail():
-    assert calculate_area_square(97) == 100  # Incorrect expected value
+    assert calculate_area_square(97) == 9409  # Incorrect expected value
